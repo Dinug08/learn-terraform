@@ -1,13 +1,12 @@
 output "sample" {
-  value="Hellow World"
+  value = "Hello World"
 }
 
+# Any String in terraform need to be quoted with Double quotes only.
+# single quotes are not supported
 
-# any string
-output "sample1"
-{
-  value=1000
-
+output "sample1" {
+  value = 1000
 }
 
-#numbers and booleans(true,false)
+# Numbers and booleans (true, false)
